@@ -1,0 +1,55 @@
+---
+title: "An Introduction to R and Generalized Linear Models"
+date: "April 28, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+York University | 
+----------------|------------
+April 28 2017   | **Instructions**: Alex Filazzola
+10 am - 12 pm   | **Helpers**: Thomas Van Zuiden
+
+###General Information
+
+The mission of this workshop is to provide tools for the average scientist to more effectively and effiicently analyse their data. This hands-on worshop will cover basic concepts  of R and conducting generalized linear models in R. Participants will be encouraged to help one another and to apply what they have learned to their own research problems.
+
+
+**Who**: The course is aimed at graduate students and other researchers. You don't need to have any previous knowledge of the tools that will be presented at the workshop.
+
+**Where**: 88 Pond Road, York University. Room 2114 DB (TEL). [Google maps](https://goo.gl/maps/fLeskquHNZs)
+
+**Requirements**: Participants should bring a laptop with a Mac, Linux, or Windows operating sytem (not a tablet, Chromebook, etc.) that they have administrative privileges on. There are computers that are provided, but they do not all come with R loaded. You must have R installed either on your own computer or the one provided by 10 am.
+
+**Contact**: Please contact alex.filazzola@outlook.com for more information.
+
+### Schedule
+
+[Live Notepad](https://docs.google.com/document/d/18RSBJ709HMAbzjhcPiq7dvkRRGxe41MrIdj-hq7KkpU/edit?usp=sharing)
+
+Time   | Goal
+-------|------------
+9:50   | Meet & greet. Test software
+10:00  | R arithmetic and simple commands
+10:30  | Loading data
+10:55  | *coffee break*
+11:05  | Introduction to GLMs
+11:30  | Conducting GLMs in R
+12:00  | Final discussions
+
+
+### Software
+
+####R
+
+[R](http://www.r-project.org/) is a programming language that is especially powerful for data exploration, visualization, and statistical analysis. To interact with R, we use [RStudio](http://www.rstudio.com/).
+
+
+
+Windows        |   Mac OS  X   |      Linux
+---------------|---------------|---------------
+Install R by downloading and running [this .exe](http://cran.r-project.org/bin/windows/base/release.htm) file from [CRAN](http://cran.r-project.org/index.html). Please also install the [RStudio IDE](http://www.rstudio.com/ide/download/desktop).| Install R by downloading and running [this .pkg](http://cran.r-project.org/bin/macosx/R-latest.pkg) file from [CRAN](http://cran.r-project.org/index.html). Please also install the [RStudio IDE](http://www.rstudio.com/ide/download/desktop).|You can download the binary files for your distribution from [CRAN](http://cran.r-project.org/index.html). Please also install the [RStudio IDE](http://www.rstudio.com/ide/download/desktop)
+
