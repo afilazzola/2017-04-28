@@ -33,11 +33,11 @@ The mission of this workshop is to provide tools for the average scientist to mo
 Time   | Goal
 -------|------------
 9:50   | Meet & greet. Test software
-10:00  | R arithmetic and simple commands
-10:30  | Loading data
+10:00  | [R arithmetic and simple commands](R.basics//r.basics.html)
+10:30  | [R environment and visualization](R.basics//r.basics.html)
 10:55  | *coffee break*
-11:05  | Introduction to GLMs
-11:30  | Conducting GLMs in R
+11:05  | [Introduction to GLMs](GLM.intro//GLM.intro.html)
+11:30  | [Conducting GLMs in R](GLM.intro//GLM.intro.html)
 12:00  | Final discussions
 
 
