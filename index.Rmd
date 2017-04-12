@@ -10,8 +10,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 York University | 
 ----------------|------------
-April 28 2017   | **Instructions**: Alex Filazzola
-10 am - 12 pm   | **Helpers**: Thomas Van Zuiden
+April 28 2017   | **Instructor**: Alex Filazzola
+10 am - 12 pm   | **Co-instructors**: Thomas Van Zuiden
 
 ###General Information
 
