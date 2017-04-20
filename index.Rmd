@@ -8,9 +8,13 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+<div style="width:500px; height=350px">
+![](images/alex.jpg)
+</div>
+
 York University | 
 ----------------|------------
-April 28 2017   | **Instructor**: Alex Filazzola
+April 28 2017   | **Instructor**: [Alex Filazzola](http://www.filazzola.info)
 10 am - 12 pm   | **Co-instructors**: Thomas Van Zuiden
 
 ###General Information
@@ -52,4 +56,12 @@ Time   | Goal
 Windows        |   Mac OS  X   |      Linux
 ---------------|---------------|---------------
 Install R by downloading and running [this .exe](http://cran.r-project.org/bin/windows/base/release.htm) file from [CRAN](http://cran.r-project.org/index.html). Please also install the [RStudio IDE](http://www.rstudio.com/ide/download/desktop).| Install R by downloading and running [this .pkg](http://cran.r-project.org/bin/macosx/R-latest.pkg) file from [CRAN](http://cran.r-project.org/index.html). Please also install the [RStudio IDE](http://www.rstudio.com/ide/download/desktop).|You can download the binary files for your distribution from [CRAN](http://cran.r-project.org/index.html). Please also install the [RStudio IDE](http://www.rstudio.com/ide/download/desktop)
+
+<div style="width:200px; height=200px">
+![](images/yorku.logo.jpg)
+</div>
+<div style="width:300px; height=120px">
+![](images/agsbs.logo.png)
+</div>
+
 
