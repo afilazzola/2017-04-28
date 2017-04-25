@@ -16,10 +16,13 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-1.1/highlight.js"></script>
@@ -98,34 +101,34 @@ button.code-folding-btn:focus {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 45px;
+  padding-top: 61px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 
 .section h2 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h3 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h4 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h5 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h6 {
-  padding-top: 50px;
-  margin-top: -50px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 </style>
 
@@ -160,6 +163,101 @@ $(document).ready(function () {
 <!-- code folding -->
 
 
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -230,16 +328,16 @@ $(document).ready(function () {
 </tbody>
 </table>
 </div>
-<div id="general-information" class="section level3">
-<h3>General Information</h3>
+<div id="general-information" class="section level2">
+<h2>General Information</h2>
 <p>The purpose of this workshop is to provide tools for a new/novice analyst to more effectively and efficiently analyse their data in R. This hands-on workshop will introduce the basic concepts of R and use of generalized linear models in R to describe patterns. Participants will be encouraged to help one another and to apply what they have learned to their own problems.</p>
 <p><strong>Who</strong>: The course is aimed at R beginners and novice to intermediate analysts. You do.</p>
 <p><strong>Where</strong>: 88 Pond Road, York University. Room 2114 DB (TEL). <a href="https://goo.gl/maps/fLeskquHNZs">Google maps</a></p>
 <p><strong>Requirements</strong>: Participants should bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) with administrative privileges. If you want to work along during tutorial, you must have R studio installed on your own computer. However, you are still welcome to attend because all examples will be presented via a projector in the classroom. Coffees and cookies provided for free.</p>
 <p><strong>Contact</strong>: Please contact <a href="mailto:alex.filazzola@outlook.com">alex.filazzola@outlook.com</a> for more information.</p>
 </div>
-<div id="schedule" class="section level3">
-<h3>Schedule</h3>
+<div id="schedule" class="section level2">
+<h2>Schedule</h2>
 <p><a href="https://docs.google.com/document/d/18RSBJ709HMAbzjhcPiq7dvkRRGxe41MrIdj-hq7KkpU/edit?usp=sharing">Live Notepad</a></p>
 <table>
 <thead>
@@ -280,8 +378,8 @@ $(document).ready(function () {
 </tbody>
 </table>
 </div>
-<div id="software" class="section level3">
-<h3>Software</h3>
+<div id="software" class="section level2">
+<h2>Software</h2>
 <div id="r" class="section level4">
 <h4>R</h4>
 <p><a href="http://www.r-project.org/">R</a> is a programming language that is especially powerful for data exploration, visualization, and statistical analysis. To interact with R, we use <a href="http://www.rstudio.com/">RStudio</a>.</p>
@@ -323,6 +421,8 @@ $(document).ready(function () {
 
 
 
+</div>
+</div>
 
 </div>
 

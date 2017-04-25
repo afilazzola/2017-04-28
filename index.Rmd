@@ -17,7 +17,7 @@ York University |
 April 28 2017   | **Instructor**: [Alex Filazzola](http://www.filazzola.info)
 10 am - 12 pm   | **Co-instructors**: Thomas Van Zuiden
 
-###General Information
+##General Information
 
 The purpose of this workshop is to provide tools for a new/novice analyst to more effectively and efficiently analyse their data in R. This hands-on workshop will introduce the basic concepts of R and use of generalized linear models in R to describe patterns. Participants will be encouraged to help one another and to apply what they have learned to their own problems.
 
@@ -29,7 +29,7 @@ The purpose of this workshop is to provide tools for a new/novice analyst to mor
 
 **Contact**: Please contact alex.filazzola@outlook.com for more information.
 
-### Schedule
+## Schedule
 
 [Live Notepad](https://docs.google.com/document/d/18RSBJ709HMAbzjhcPiq7dvkRRGxe41MrIdj-hq7KkpU/edit?usp=sharing)
 
@@ -44,7 +44,7 @@ Time   | Goal
 12:00  | Final discussions
 
 
-### Software
+## Software
 
 ####R
 

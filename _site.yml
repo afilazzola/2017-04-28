@@ -11,4 +11,7 @@ navbar:
 output_dir: "."
 output:
   html_document:
-    theme: yeti
+    theme: sandstone
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
