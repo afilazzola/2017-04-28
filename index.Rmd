@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 </div>
 
 York University | 
-----------------|------------
+----------------|-----------------------------------
 April 28 2017   | **Instructor**: [Alex Filazzola](http://www.filazzola.info)
 10 am - 12 pm   | **Co-instructors**: Thomas Van Zuiden, Katie Florko, and Katrina Gaibisels
 
@@ -21,7 +21,7 @@ April 28 2017   | **Instructor**: [Alex Filazzola](http://www.filazzola.info)
 
 The purpose of this workshop is to provide tools for a new/novice analyst to more effectively and efficiently analyse their data in R. This hands-on workshop will introduce the basic concepts of R and use of generalized linear models in R to describe patterns. Participants will be encouraged to help one another and to apply what they have learned to their own problems.
 
-**Who**: The course is aimed at R beginners and novice to intermediate analysts. You do.
+**Who**: The course is aimed at R beginners and novice to intermediate analysts. You do not need to have previous knowledge of R.
 
 **Where**: 88 Pond Road, York University. Room 2114 DB (TEL). [Google maps](https://goo.gl/maps/fLeskquHNZs)
 
