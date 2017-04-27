@@ -5,9 +5,9 @@ navbar:
     - text: "info"
       href: index.html
     - text: "R.basics"
-      href: R.basics/r.basics.html
+      href: r.basics.html
     - text: "GLM.intro"
-      href: GLM.intro/GLM.intro.html
+      href: GLM.intro.html
 output_dir: "."
 output:
   html_document:
