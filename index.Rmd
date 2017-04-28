@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 York University | 
 ----------------|-----------------------------------
 April 28 2017   | **Instructor**: [Alex Filazzola](http://www.filazzola.info)
-10 am - 12 pm   | **Co-instructors**: Thomas Van Zuiden, Katie Florko, and Katrina Gaibisels
+10 am - 12 pm   | **Co-instructors**: Thomas Van Zuiden and Katie Florko
 
 ##General Information
 
